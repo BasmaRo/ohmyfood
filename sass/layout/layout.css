@@ -1,0 +1,71 @@
+.localisation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #EAEAEA;
+  color: #353535;
+}
+
+.reservez {
+  text-align: center;
+  background-color: #F6F6F6;
+  margin: 0%;
+  padding: 20px;
+}
+.reservez p {
+  color: #353535;
+  font-size: 18px;
+}
+.reservez button {
+  background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  color: white;
+  font-weight: bold;
+  padding: 18px;
+  font-size: 16px;
+  border-radius: 27px;
+  border: none;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  transition-duration: 0.1s;
+}
+.reservez button:hover {
+  transform: scale(1.02);
+}
+
+.fonctionnement {
+  padding: 1rem;
+}
+.fonctionnement h2 {
+  padding-bottom: 1rem;
+}
+.fonctionnement ol {
+  list-style: none;
+  margin-left: -2rem;
+}
+.fonctionnement li {
+  background-color: #F7F7F7;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 1.5rem 2rem;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  margin: 1rem 0 1.5rem 1rem;
+}
+.fonctionnement span {
+  margin-left: -3rem;
+  margin-right: 2rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 100%;
+  background-color: #9356DC;
+  color: white;
+  font-size: 14px;
+}
+.fonctionnement i {
+  margin-right: 1rem;
+  color: #7E7E7E;
+}
+.fonctionnement .fa-store {
+  color: #9356DC;
+}/*# sourceMappingURL=layout.css.map */
